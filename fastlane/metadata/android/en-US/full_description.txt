@@ -6,6 +6,7 @@ RepoStore is a native Android app that turns GitHub releases into a clean, Play 
 • <b>Latest-Release Installs</b> - Fetches the latest release for each repo and shows only assets from the newest release with a single Install action.
 • <b>Rich Details Screen</b> - View app name, version, stars, forks, language stats, rendered README content, release notes with markdown formatting, and screenshot gallery.
 • <b>Install & Update Tracking</b> - Tracks installations and shows when updates are available. Shows "Open" for installed apps.
+• <b>Multi-language Support</b> - Support for English, Hindi, Hinglish, and Marathi with a searchable language selection dialog.
 • <b>Material You Design</b> - Material 3 design with dynamic theming support and dark mode.
 • <b>GitHub Integration</b> - Optional GitHub sign-in to increase API rate limit from 60 to 5,000 requests/hour.
 

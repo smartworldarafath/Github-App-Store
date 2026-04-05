@@ -1,0 +1,5 @@
+- Added searchable language selection dialog
+- Multi-language Support
+- Added support for Hinglish (Hindi + English)
+- Added support for Marathi language
+- UI improvements and bug fixes
