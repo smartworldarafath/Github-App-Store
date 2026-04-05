@@ -321,4 +321,5 @@
     <string name="cat_name_writing">Pagsulat</string>
     <string name="cat_name_productivity">Pagkaproduktibo</string>
     <string name="cat_name_open_source">Bukas nga Tinubdan</string>
-    <string name="cat_name_trending">Trending</string></resources>
+    <string name="cat_name_trending">Trending</string>
+</resources>

@@ -1,126 +1,307 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Repo Store</string>
 
-    <!-- Navigation -->
     <string name="home">Home</string>
     <string name="games">Games</string>
     <string name="apps">Apps</string>
     <string name="trending">Trending</string>
-    <string name="search">Search</string>
+    <string name="search">Search karein</string>
     <string name="profile">Profile</string>
-    <string name="back">Wapas</string>
+    <string name="back">Peeche jayein</string>
 
-    <!-- Search -->
-    <string name="search_apps_games">Apps &amp; games search karo</string>
-    <string name="search_github_repos">GitHub repos search karo…</string>
-    <string name="search_hint">GitHub pe Android apps dhundo</string>
-    <string name="no_results">Koi result nahi mila</string>
-    <string name="clear">Clear</string>
-    <string name="voice_search">Voice search</string>
+    <string name="search_apps_games">Apps aur games search karein</string>
+    <string name="search_github_repos">GitHub repositories search karein…</string>
+    <string name="search_hint">GitHub par Android apps dhundein</string>
+    <string name="no_results">Kuch nahi mila</string>
+    <string name="clear">Saaf karein</string>
+    <string name="voice_search">Bol kar search karein</string>
     <string name="filter">Filter</string>
-    <string name="sort_by">Sort karo</string>
-    <string name="updated">Updated</string>
-    <string name="has_apk">APK available</string>
-    <string name="reset">Reset</string>
-    <string name="results_count">%d results</string>
-    <string name="any_language">Koi bhi language</string>
-    <string name="any_stars">Koi bhi stars</string>
+    <string name="sort_by">Is hisab se dekhein</string>
+    <string name="updated">Update kiya gaya</string>
+    <string name="has_apk">APK ke saath</string>
+    <string name="reset">Pehle jaisa karein</string>
+    <string name="results_count">%d results mile</string>
+    <string name="any_language">Koi bhi bhasha</string>
+    <string name="any_stars">Kitne bhi stars</string>
     <string name="min_stars_format">%d+ stars</string>
-    <string name="best_match">Best Match</string>
+    <string name="best_match">Sabse sahi match</string>
     <string name="most_stars">Sabse zyada stars</string>
     <string name="most_forks">Sabse zyada forks</string>
-    <string name="recently_updated_sort">Recently updated</string>
-    <string name="any_time">Koi bhi time</string>
-    <string name="last_week">Last week</string>
-    <string name="last_month">Last month</string>
-    <string name="last_3_months">Last 3 months</string>
-    <string name="last_year">Last year</string>
+    <string name="recently_updated_sort">Haal hi mein update hua</string>
+    <string name="any_time">Kabhi bhi</string>
+    <string name="last_week">Pichle hafte</string>
+    <string name="last_month">Pichle mahine</string>
+    <string name="last_3_months">Pichle 3 mahine</string>
+    <string name="last_year">Pichle saal</string>
 
-    <!-- Home Sections -->
-    <string name="recommended_for_you">Tumhare liye recommended</string>
+    <string name="recommended_for_you">Aapke liye khaas</string>
     <string name="top_free_apps">Top free apps</string>
-    <string name="recently_updated">Recently updated</string>
-    <string name="see_more">Aur dekho</string>
-    <string name="all_categories">Saare categories</string>
-    <string name="more">Aur</string>
+    <string name="recently_updated">Haal hi mein update hue</string>
+    <string name="see_more">Aur dekhein</string>
+    <string name="all_categories">Saari categories</string>
+    <string name="more">Zyada</string>
 
-    <!-- Game Sections -->
-    <string name="featured_games">Featured Games</string>
-    <string name="popular_games">Popular Games</string>
+    <string name="featured_games">Behtareen Games</string>
+    <string name="popular_games">Mashhoor Games</string>
     <string name="new_games">Naye Games</string>
-    <string name="no_games_found">Koi games nahi mile</string>
+    <string name="no_games_found">Koi game nahi mila</string>
 
-    <!-- App Details -->
     <string name="app_icon">App icon</string>
     <string name="banner">Banner</string>
-    <string name="about">About</string>
+    <string name="about">Iske baare mein</string>
     <string name="about_this_app">Is app ke baare mein</string>
     <string name="screenshots">Screenshots</string>
     <string name="screenshot">Screenshot</string>
     <string name="stars">Stars</string>
     <string name="forks">Forks</string>
-    <string name="language">Language</string>
-    <string name="last_updated">Last updated</string>
-    <string name="updated_on">Updated on</string>
-    <string name="latest_release">Latest Release</string>
-    <string name="whats_new">Kya naya hai</string>
+    <string name="language">Bhasha</string>
+    <string name="last_updated">Aakhri update</string>
+    <string name="updated_on">Update hua: %s</string>
+    <string name="latest_release">Sabse naya release</string>
+    <string name="whats_new">Naya kya hai</string>
     <string name="readme">README</string>
     <string name="download">Download</string>
-    <string name="install">Install</string>
-    <string name="download_apk">APK download karo</string>
-    <string name="view_release">Release dekho</string>
-    <string name="view_on_github">GitHub pe dekho</string>
+    <string name="install">Install karein</string>
+    <string name="download_apk">APK download karein</string>
+    <string name="view_release">Release dekhein</string>
+    <string name="view_on_github">GitHub par dekhein</string>
     <string name="github">GitHub</string>
-    <string name="no_description">Koi description available nahi hai</string>
-    <string name="no_release_notes">Koi release notes nahi hai</string>
-    <string name="archived">Archived</string>
+    <string name="no_description">Koi jaankari available nahi hai</string>
+    <string name="no_release_notes">Koi release notes nahi hain</string>
+    <string name="archived">Archived hai</string>
 
-    <!-- Error Messages -->
-    <string name="no_apps_found">Koi apps nahi mile</string>
-    <string name="no_repos_found">Koi repositories nahi mile</string>
-    <string name="rate_limit_error">Rate limit exceed ho gaya. Baad mein try karo.</string>
-    <string name="network_error">Network issue hai. Connection check karo.</string>
-    <string name="tap_to_retry">Retry ke liye tap karo</string>
-    <string name="loading">Loading…</string>
+    <string name="tag_new">NAYA</string>
+    <string name="tag_updated">UPDATE HUA</string>
+    <string name="tag_archived">ARCHIVED</string>
 
-    <!-- Settings -->
+    <string name="no_apps_found">Koi app nahi mila</string>
+    <string name="no_repos_found">Koi repository nahi mili</string>
+    <string name="rate_limit_error">Limit khatam ho gayi hai. Thodi der baad try karein.</string>
+    <string name="network_error">Internet ki dikat hai. Connection check karein.</string>
+    <string name="tap_to_retry">Try karne ke liye touch karein</string>
+    <string name="loading">Load ho raha hai…</string>
+
+    <string name="repositories">Repositories</string>
+    <string name="repositories_count">%d repositories</string>
+    <string name="view_github_profile">GitHub Profile dekhein</string>
+
     <string name="settings">Settings</string>
-    <string name="enter_token">Apna GitHub token enter karo</string>
-    <string name="save_token">Token save karo</string>
-    <string name="clear_token">Token hatao</string>
-    <string name="token_saved">Token successfully save ho gaya</string>
-    <string name="token_removed">Token remove ho gaya</string>
+    <string name="github_token">GitHub Personal Access Token</string>
+    <string name="github_token_desc">API limit badhane ke liye token dalein (60 se 5000 tak).</string>
+    <string name="enter_token">Apna GitHub token dalein</string>
+    <string name="save_token">Token save karein</string>
+    <string name="clear_token">Token hataiye</string>
+    <string name="create_token_on_github">GitHub par token banayein</string>
+    <string name="token_saved">Token sahi se save ho gaya</string>
+    <string name="token_removed">Token hata diya gaya</string>
+    <string name="rate_limit_info_title">API Rate Limit</string>
+    <string name="rate_limit_info_desc">Bina token ke: 60 requests/hour\nToken ke saath: 5,000 requests/hour</string>
+    <string name="how_to_create_token">Token kaise banayein:</string>
+    <string name="token_instructions">1. GitHub Settings → Developer settings par jayein\n2. \"Personal access tokens\" → \"Tokens (classic)\" par click karein\n3. \"Generate new token\" par click karein\n4. Ek naam dein aur \"public_repo\" select karein\n5. \"Generate token\" daba kar use copy kar lein</string>
+    <string name="no_token_set">Koi token nahi dala gaya</string>
+    <string name="token_configured">Token set ho gaya hai</string>
 
-    <!-- Download -->
+    <string name="developer">Developer</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+
     <string name="downloading">Download ho raha hai…</string>
-    <string name="download_complete">Download complete</string>
-    <string name="retry">Retry</string>
-    <string name="cancel">Cancel</string>
-    <string name="update">Update</string>
-    <string name="uninstall">Uninstall</string>
+    <string name="downloading_apk">APK download ho raha hai</string>
+    <string name="download_complete">Download poora hua</string>
+    <string name="download_in_progress">Download pehle se chal raha hai</string>
+    <string name="file_not_found">Download ki gayi file nahi mili</string>
+    <string name="install_error">Installer nahi khul paya</string>
+    <string name="installing">Install ho raha hai…</string>
+    <string name="open">Kholein</string>
+    <string name="cannot_open_app">App nahi khul raha</string>
+    <string name="queued">Line mein hai…</string>
+    <string name="preparing">Taiyari ho rahi hai…</string>
+    <string name="verifying">Check kiya ja raha hai…</string>
+    <string name="storage_error">Storage mein koi dikat aayi hai</string>
+    <string name="insufficient_storage">Jagah kam hai</string>
+    <string name="verification_failed">File check fail ho gaya</string>
+    <string name="download_timeout">Download ka time khatam ho gaya</string>
+    <string name="retry">Phir se koshish karein</string>
+    <string name="cancel">Cancel karein</string>
+    <string name="update">Update karein</string>
+    <string name="update_available">Naya update aaya hai</string>
+    <string name="uninstall">Hataiye (Uninstall)</string>
 
-    <!-- GitHub Sign In -->
-    <string name="github_sign_in">GitHub se sign in karo</string>
-    <string name="signed_in_successfully">Successfully sign in ho gaya!</string>
-    <string name="sign_out">Sign out</string>
+    <string name="github_sign_in">GitHub se sign in karein</string>
+    <string name="sign_in_to_increase_limit">Limit badhane ke liye sign in karein</string>
+    <string name="connecting_to_github">GitHub se connect ho raha hai…</string>
+    <string name="enter_code_on_github">Ye code GitHub par dalein</string>
+    <string name="code_instructions">Apne browser mein GitHub kholein aur sign in ke liye niche wala code dalein</string>
+    <string name="copy_code">Code copy karein</string>
+    <string name="code_copied">Code copy ho gaya</string>
+    <string name="open_github">GitHub kholein</string>
+    <string name="waiting_for_authorization">Permission ka intezar hai…</string>
+    <string name="signed_in_successfully">Sahi se sign in ho gaya!</string>
+    <string name="signed_in">Sign in ho gaya</string>
+    <string name="signed_in_as">%s ke naam se sign in hain</string>
+    <string name="rate_limit_increased">APIl imit badh kar 5,000 ho gayi hai</string>
+    <string name="sign_out">Sign Out karein</string>
     <string name="signed_out">Sign out ho gaya</string>
+    <string name="failed_to_get_code">Auth code nahi mil paya</string>
+    <string name="auth_expired">Time khatam ho gaya. Phir se try karein.</string>
+    <string name="unknown_error">Anjaani galti hui hai</string>
+    <string name="something_went_wrong">Kuch galat ho gaya</string>
+    <string name="user">\@user</string>
+    <string name="rate_limit_exceeded_title">Limit khatam ho gayi</string>
+    <string name="rate_limit_exceeded_message">Aapki GitHub API limit (60/hour) khatam ho gayi hai.\n\nFree mein limit 5,000 karne ke liye GitHub se sign in karein!</string>
+    <string name="rate_limit_exceeded_signed_in">Aapki limit (5,000/hour) khatam ho gayi hai. Kuch der baad try karein.</string>
 
-    <!-- Donate -->
-    <string name="donate">Donate</string>
-    <string name="support_developer">Developer ko support karo</string>
-    <string name="donate_description">Agar app useful lage, thoda support karo.</string>
-    <string name="thank_you_message">Support ke liye thank you ❤️</string>
+    <string name="donate">Donate karein</string>
+    <string name="support_developer">Developer ki madad karein</string>
+    <string name="donate_description">Agar aapko ye app pasand aaya, toh thoda support zaroor karein.</string>
+    <string name="scan_qr_code">Pay karne ke liye QR scan karein</string>
+    <string name="upi_qr_code">UPI QR Code</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Copy</string>
+    <string name="upi_id_copied">UPI ID copy ho gaya</string>
+    <string name="thank_you_message">Support ke liye shukriya! ❤️</string>
+    <string name="pay_with_upi_app">UPI App se pay karein</string>
+    <string name="no_upi_apps_found">Aapke phone par koi UPI app nahi mila</string>
+    <string name="payment_app_icon">Payment app icon</string>
+    <string name="pay">Pay karein</string>
+    <string name="cannot_open_payment_app">Payment app nahi khul raha</string>
+    <string name="buy_me_a_coffee">Buy Me A Coffee</string>
+    <string name="support_buy_me_a_coffee">Buy Me A Coffee par support karein</string>
 
-    <!-- My Apps -->
+    <string name="open_source_licenses">Open Source Licenses</string>
+    <string name="source_code">Source Code</string>
+
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Version %s</string>
+    <string name="username_format">\@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+
     <string name="my_apps">Mere Apps</string>
-    <string name="no_favorite_apps">Abhi tak koi favorite apps nahi hai</string>
-    <string name="add_to_favorites">Favorites mein add karo</string>
-    <string name="remove_from_favorites">Favorites se hatao</string>
+    <string name="no_favorite_apps">Abhi koi favorite app nahi hai</string>
+    <string name="no_favorite_apps_hint">Kisi bhi app ko yahan laane ke liye dil (heart) icon dabayein</string>
+    <string name="add_to_favorites">Favorites mein jodein</string>
+    <string name="remove_from_favorites">Favorites se hatayein</string>
+    <string name="added_to_favorites">Favorites mein jod diya gaya</string>
+    <string name="removed_from_favorites">Favorites se hata diya gaya</string>
+    <string name="favorite_apps">Favorite Apps</string>
+    <string name="no_installed_apps">Koi app install nahi hai</string>
+    <string name="no_installed_apps_hint">Jo apps aap favorites se install karenge wo yahan dikhenge</string>
 
-    <!-- Appearance -->
-    <string name="appearance">Appearance</string>
-    <string name="theme_dark">Dark</string>
-    <string name="theme_light">Light</string>
+    <string name="appearance">Look aur Theme</string>
+    <string name="theme_system">System wala</string>
+    <string name="theme_for_you">Aapke hisab se</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_light">Light Mode</string>
 
+    <string name="download_settings">Download Settings</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">Agar GitHub blocked hai, toh download ke liye proxy use karein.</string>
+    <string name="enable_mirror_proxy">Mirror Proxy chalu karein</string>
+    <string name="proxy_url_hint">Proxy URL (jaise: https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Mashhoor Proxies</string>
+    <string name="multi_part_download">Multi-Part Download</string>
+    <string name="multi_part_description">Tez speed ke liye file ko tukdon mein download karein.</string>
+    <string name="enable_multi_part">Multi-Part Download chalu karein</string>
+    <string name="download_threads">Download Threads</string>
+    <string name="thread_count_hint">Zyada threads matlab zyada speed, par zyada resource lenge (1-32)</string>
+    <string name="download_settings_info">Mirror proxy URL ko badal deta hai. Multi-part downloading file ko alag-alag hisson mein download karti hai.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Version chuniye</string>
+    <string name="compatible">Chalne layak</string>
+    <string name="incompatible">Nahi chalega</string>
+    <string name="recommended">Recommended</string>
+    <string name="app_mismatch_title">Galat App hai kya?</string>
+    <string name="app_mismatch_message">RepoStore ko ye repository aapke installed app se mili hai: %1$s (%2$s).\n\nAgar ye wo app nahi hai, toh bhi aap APK install kar sakte hain.</string>
+    <string name="install_anyway">Phir bhi install karein</string>
+    <string name="forget_mapping">Yaad rakhna band karein</string>
+    <string name="contributors">Yogdaan dene wale</string>
+    <string name="no_apk_variants_available">Koi APK version available nahi hai</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Chuna gaya</string>
+
+    <string name="cat_name_all">Sabhi</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store aur Updater</string>
+    <string name="cat_name_battery">Battery</string>
+    <string name="cat_name_bookmark">Bookmark</string>
+    <string name="cat_name_browser">Browser</string>
+    <string name="cat_name_calculator">Calculator</string>
+    <string name="cat_name_calendar_agenda">Calendar aur Agenda</string>
+    <string name="cat_name_clock">Ghadi (Clock)</string>
+    <string name="cat_name_cloud_storage">Cloud Storage aur File Sync</string>
+    <string name="cat_name_connectivity">Connectivity</string>
+    <string name="cat_name_contact">Contact</string>
+    <string name="cat_name_development">Development</string>
+    <string name="cat_name_dns_hosts">DNS aur Hosts</string>
+    <string name="cat_name_draw">Drawing</string>
+    <string name="cat_name_ebook_reader">Ebook Reader</string>
+    <string name="cat_name_email">Email</string>
+    <string name="cat_name_file_encryption">File Lock aur Vault</string>
+    <string name="cat_name_file_transfer">File Bhejna</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Paisa Manager</string>
+    <string name="cat_name_flashlight">Flashlight</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Gallery</string>
+    <string name="cat_name_games">Games</string>
+    <string name="cat_name_graphics">Graphics</string>
+    <string name="cat_name_habit_tracker">Habit Tracker</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Samaan (Inventory)</string>
+    <string name="cat_name_keyboard_ime">Keyboard</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Local Media Player</string>
+    <string name="cat_name_location_tracker">Location Tracker</string>
+    <string name="cat_name_messaging">Messages</string>
+    <string name="cat_name_money">Paisa</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Gane aur Audio</string>
+    <string name="cat_name_video_players">Video Players</string>
+    <string name="cat_name_music_practice">Music Practice</string>
+    <string name="cat_name_navigation">Rasta (Navigation)</string>
+    <string name="cat_name_network_analyzer">Network Analyzer</string>
+    <string name="cat_name_news">Khabrein (News)</string>
+    <string name="cat_name_note">Notes</string>
+    <string name="cat_name_online_media_player">Online Media Player</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Password aur 2FA</string>
+    <string name="cat_name_phone_sms">Phone aur SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Sarkari Bus/Train</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Padhna</string>
+    <string name="cat_name_recipe_manager">Khana Banane ki Recipe</string>
+    <string name="cat_name_remote_controller">Remote Control</string>
+    <string name="cat_name_science_education">Science aur Padhai</string>
+    <string name="cat_name_security">Security</string>
+    <string name="cat_name_shopping_list">Shopping List</string>
+    <string name="cat_name_social_network">Social Media</string>
+    <string name="cat_name_sports_health">Khel aur Sehat</string>
+    <string name="cat_name_streaming_app">Streaming App</string>
+    <string name="cat_name_system">System</string>
+    <string name="cat_name_task">Kaam (Task)</string>
+    <string name="cat_name_text_editor">Text Editor</string>
+    <string name="cat_name_theming">Theming</string>
+    <string name="cat_name_time">Waqt (Time)</string>
+    <string name="cat_name_tools">Tools</string>
+    <string name="cat_name_translation_dictionary">Dictionary</string>
+    <string name="cat_name_unit_convertor">Unit Convertor</string>
+    <string name="cat_name_voice_video_chat">Video Chat</string>
+    <string name="cat_name_vpn">VPN aur Proxy</string>
+    <string name="cat_name_wallet">Wallet</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Mausam</string>
+    <string name="cat_name_workout">Workout</string>
+    <string name="cat_name_writing">Likhna (Writing)</string>
+    <string name="cat_name_productivity">Productivity</string>
+    <string name="cat_name_open_source">Open Source</string>
+    <string name="cat_name_trending">Trending</string>
 </resources>
+
