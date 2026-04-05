@@ -55,6 +55,7 @@
     <string name="stars">Stars</string>
     <string name="forks">Forks</string>
     <string name="language">Bhasha</string>
+    <string name="hinglish">Hinglish</string>
     <string name="last_updated">Aakhri update</string>
     <string name="updated_on">Update hua: %s</string>
     <string name="latest_release">Sabse naya release</string>

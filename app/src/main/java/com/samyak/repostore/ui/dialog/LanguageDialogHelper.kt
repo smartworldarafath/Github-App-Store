@@ -30,8 +30,8 @@ fun Fragment.showLanguageDialog() {
         
         // Special case for Hinglish (Hindi-India in Latin script)
         if (locale.language == "hi" && locale.country == "IN") {
-            nativeName = "Hinglish"
-            englishName = "Hinglish"
+            nativeName = getString(R.string.hinglish)
+            englishName = getString(R.string.hinglish)
         }
         
         LangItem(nativeName, englishName, locale)

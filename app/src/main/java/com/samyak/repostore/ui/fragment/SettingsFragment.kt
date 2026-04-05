@@ -109,7 +109,11 @@ class SettingsFragment : Fragment() {
             binding.tvCurrentLanguage.text = getString(R.string.theme_system)
         } else {
             val currentLocale = currentLocales.get(0)
-            binding.tvCurrentLanguage.text = currentLocale?.getDisplayName(currentLocale)
+            if (currentLocale?.language == "hi" && currentLocale.country == "IN") {
+                binding.tvCurrentLanguage.text = getString(R.string.hinglish)
+            } else {
+                binding.tvCurrentLanguage.text = currentLocale?.getDisplayName(currentLocale)
+            }
         }
     }
 
