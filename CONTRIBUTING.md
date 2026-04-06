@@ -1,79 +1,90 @@
 # Contributing to RepoStore
 
-Thank you for your interest in contributing to RepoStore! 🎉
+Thank you for your interest in contributing to RepoStore! 🎉 This guide will help you set up your development environment and understand how to contribute to the project.
+
+## Table of Contents
+1. [How to Contribute](#how-to-contribute)
+2. [Contribution Workflow](#contribution-workflow)
+3. [Localizing RepoStore](#localizing-repostore)
+4. [Contributing to GitCore](#contributing-to-gitcore)
+5. [Fastlane Metadata](#fastlane-metadata)
+6. [Code Style & Best Practices](#code-style--best-practices)
+7. [Commit Messages](#commit-messages)
+
+---
 
 ## How to Contribute
 
 ### Reporting Bugs
-
-1. Check if the bug has already been reported in [Issues](https://github.com/samyak2403/RepoStore/issues)
-2. If not, create a new issue with:
-   - Clear title describing the problem
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Device info (Android version, device model)
-   - Screenshots if applicable
+1. Check the [Existing Issues](https://github.com/samyak2403/RepoStore/issues) for similar reports.
+2. If the issue is new, create a bug report with:
+    - Precise title and description.
+    - Steps to reproduce the error.
+    - Expected vs. Actual behavior.
+    - System details (Android version, Device model).
+    - Screenshots or screen recordings.
 
 ### Suggesting Features
+1. Open a new issue with the `enhancement` label.
+2. Clearly explain the need and usability of the proposed feature.
 
-1. Open a new issue with the `enhancement` label
-2. Describe the feature and its use case
-3. Explain why it would benefit users
+## Contribution Workflow
 
-### Pull Requests
-
-1. **Fork** the repository
-2. **Clone** your fork:
+1. **Fork** the repository and **Clone** your fork.
    ```bash
    git clone https://github.com/samyak2403/RepoStore.git
    ```
-3. **Create a branch** for your feature:
+2. **Create a branch** for your work.
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/your-awesome-feature
+   # or
+   git checkout -b fix/issue-name
    ```
-4. **Make your changes** following the code style
-5. **Test** your changes thoroughly
-6. **Commit** with a clear message:
-   ```bash
-   git commit -m "feat: add new feature description"
-   ```
-7. **Push** to your fork:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-8. **Open a Pull Request** to the `main` branch
+3. **Make your changes** following our guidelines.
+4. **Test** the app thoroughly on different screen sizes and OS versions.
+5. **Commit** using the conventional format (see below).
+6. **Push** to your fork and **Open a Pull Request** to the `main` branch.
 
-## Code Style
+## Localizing RepoStore
 
-- Use Kotlin for all new code
-- Follow Android best practices
-- Use meaningful variable and function names
-- Add comments for complex logic
-- Keep functions small and focused
+The project now supports extensive multi-language features via a **Searchable Language Dialog**.
+
+### Adding a New Language
+1. Create a new `values-xx` folder in `app/src/main/res/`.
+2. Add your translated `strings.xml` file.
+3. Ensure the language is picked up by `LanguageDialogHelper.kt`.
+4. To add specific language support (like **Hinglish**), modify `LanguageDialogHelper.kt` to define the native and English display names correctly.
+
+## Contributing to GitCore
+
+The core Git operations are located in the `GitCore` library module. To contribute here:
+- Keep the module platform-independent where possible.
+- Ensure efficient data handling for Git-related operations (cloning, pull/push).
+
+## Fastlane Metadata
+
+We use **Fastlane** for managing app store listings and screenshots.
+1. Metadata files are in `fastlane/metadata/android/`.
+2. To update descriptions or changelogs, edit the text files under the relevant locale (e.g., `en-US`, `hi-IN`).
+3. For screenshots, place them in the corresponding locale folder under `fastlane/metadata/android/images`.
+
+## Code Style & Best Practices
+
+- **Kotlin First**: Use Kotlin for all new logic.
+- **Consistency**: Follow the existing indentation and naming conventions.
+- **Modularity**: Keep the `app` and `GitCore` modules separated cleanly.
+- **UI Gems**: When adding new UI components, use **Material 3** elements and maintain theme compatibility (Dark/Light modes).
 
 ## Commit Messages
 
-Use conventional commits format:
-- `feat:` - New feature
-- `fix:` - Bug fix
-- `docs:` - Documentation changes
-- `style:` - Code formatting
-- `refactor:` - Code refactoring
-- `test:` - Adding tests
-- `chore:` - Maintenance tasks
-
-## Development Setup
-
-1. Install Android Studio (latest stable version)
-2. Clone the repository
-3. Open the project in Android Studio
-4. Sync Gradle files
-5. Run on emulator or physical device
-
-## Questions?
-
-Feel free to open an issue or reach out if you have questions!
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+- `feat:` for new features
+- `fix:` for bug fixes
+- `docs:` for documentation updates
+- `style:` for UI/formatting changes
+- `refactor:` for code restructuring
+- `chore:` for maintenance (Gradle, dependencies)
 
 ---
 
-Thank you for contributing! ❤️
+Thank you for making RepoStore better! ❤️
