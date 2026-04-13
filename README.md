@@ -13,7 +13,6 @@
   <img alt="Material 3" src="https://img.shields.io/badge/Material-3-4285F4?logo=material-design&logoColor=white"/>
   <img alt="MVVM" src="https://img.shields.io/badge/Architecture-MVVM-orange"/>
   <a href="https://www.codefactor.io/repository/github/samyak2403/repostore"><img src="https://www.codefactor.io/repository/github/samyak2403/repostore/badge" alt="CodeFactor" /></a>
-  <a href="https://t.me/samyak2403_RepoStore"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-Join%20Group-2CA5E0?logo=telegram&logoColor=white"/></a>
 </p>
 
 <p align="center">
