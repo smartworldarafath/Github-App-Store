@@ -22,6 +22,12 @@ interface FavoriteAppDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun addFavorite(app: FavoriteApp)
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun addFavorites(apps: List<FavoriteApp>)
+
+    @Query("SELECT * FROM favorite_apps ORDER BY addedAt DESC")
+    suspend fun getAllFavoritesSync(): List<FavoriteApp>
+
     @Query("DELETE FROM favorite_apps WHERE id = :repoId")
     suspend fun removeFavorite(repoId: Long)
 

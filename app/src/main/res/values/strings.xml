@@ -204,6 +204,12 @@
     <string name="added_to_favorites">Added to favorites</string>
     <string name="removed_from_favorites">Removed from favorites</string>
     <string name="favorite_apps">Favorite Apps</string>
+    <string name="export_to_json">Export to JSON</string>
+    <string name="import_from_json">Import from JSON</string>
+    <string name="export_successful">Export successful</string>
+    <string name="import_successful">Import successful</string>
+    <string name="export_failed">Export failed</string>
+    <string name="import_failed">Import failed</string>
     <string name="no_installed_apps">No installed apps</string>
     <string name="no_installed_apps_hint">Apps you install from your favorites will appear here</string>
     

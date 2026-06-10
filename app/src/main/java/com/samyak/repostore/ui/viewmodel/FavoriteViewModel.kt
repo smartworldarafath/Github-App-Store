@@ -40,6 +40,16 @@ class FavoriteViewModel(
             favoriteAppDao.removeFavorite(repoId)
         }
     }
+
+    suspend fun getFavoritesForExport(): List<FavoriteApp> {
+        return favoriteAppDao.getAllFavoritesSync()
+    }
+
+    fun importFavorites(apps: List<FavoriteApp>) {
+        viewModelScope.launch {
+            favoriteAppDao.addFavorites(apps)
+        }
+    }
 }
 
 class FavoriteViewModelFactory(

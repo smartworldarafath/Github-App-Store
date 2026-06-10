@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_export"
+        android:icon="@drawable/ic_export_svgrepo"
+        android:title="@string/export_to_json"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_import"
+        android:icon="@drawable/ic_import_svgrepo"
+        android:title="@string/import_from_json"
+        app:showAsAction="ifRoom" />
+</menu>

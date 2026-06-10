@@ -21,6 +21,14 @@ import com.samyak.repostore.ui.viewmodel.FavoriteViewModel
 import com.samyak.repostore.ui.viewmodel.FavoriteViewModelFactory
 import com.samyak.repostore.ui.widget.ShimmerFrameLayout
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import androidx.activity.result.contract.ActivityResultContracts
+import android.widget.Toast
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import com.samyak.repostore.R
+import com.samyak.repostore.data.model.FavoriteApp
 
 class FavoriteActivity : AppCompatActivity() {
 
@@ -34,6 +42,14 @@ class FavoriteActivity : AppCompatActivity() {
     
     // Shimmer layout for skeleton loading
     private var shimmerLayout: ShimmerFrameLayout? = null
+
+    private val exportLauncher = registerForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
+        uri?.let { exportFavoritesToFile(it) }
+    }
+
+    private val importLauncher = registerForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        uri?.let { importFavoritesFromFile(it) }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,8 +74,22 @@ class FavoriteActivity : AppCompatActivity() {
     }
 
     private fun setupToolbar() {
+        binding.toolbar.inflateMenu(R.menu.menu_favorite)
         binding.toolbar.setNavigationOnClickListener {
             finish()
+        }
+        binding.toolbar.setOnMenuItemClickListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.action_export -> {
+                    exportLauncher.launch("favorites.json")
+                    true
+                }
+                R.id.action_import -> {
+                    importLauncher.launch(arrayOf("application/json", "text/plain"))
+                    true
+                }
+                else -> false
+            }
         }
     }
 
@@ -140,6 +170,47 @@ class FavoriteActivity : AppCompatActivity() {
         }
     }
     
+    private fun exportFavoritesToFile(uri: android.net.Uri) {
+        lifecycleScope.launch {
+            try {
+                val favorites = viewModel.getFavoritesForExport()
+                val json = Gson().toJson(favorites)
+                withContext(Dispatchers.IO) {
+                    contentResolver.openOutputStream(uri)?.use { outputStream ->
+                        outputStream.write(json.toByteArray())
+                    }
+                }
+                Toast.makeText(this@FavoriteActivity, R.string.export_successful, Toast.LENGTH_SHORT).show()
+            } catch (e: Exception) {
+                e.printStackTrace()
+                Toast.makeText(this@FavoriteActivity, R.string.export_failed, Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    private fun importFavoritesFromFile(uri: android.net.Uri) {
+        lifecycleScope.launch {
+            try {
+                val json = withContext(Dispatchers.IO) {
+                    contentResolver.openInputStream(uri)?.use { inputStream ->
+                        inputStream.bufferedReader().use { it.readText() }
+                    }
+                }
+                if (json != null) {
+                    val type = object : TypeToken<List<FavoriteApp>>() {}.type
+                    val favorites: List<FavoriteApp> = Gson().fromJson(json, type)
+                    viewModel.importFavorites(favorites)
+                    Toast.makeText(this@FavoriteActivity, R.string.import_successful, Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(this@FavoriteActivity, R.string.import_failed, Toast.LENGTH_SHORT).show()
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+                Toast.makeText(this@FavoriteActivity, R.string.import_failed, Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         shimmerLayout = null
