@@ -51,6 +51,7 @@ class SettingsFragment : Fragment() {
         setupAboutSection()
         setupDeveloperSection()
         setupDonateSection()
+        setupTelegramSection()
         setupLicensesSection()
         setupSourceCodeSection()
     }
@@ -226,6 +227,17 @@ class SettingsFragment : Fragment() {
         }
     }
 
+    private fun setupTelegramSection() {
+        binding.telegramCard.setOnClickListener {
+            try {
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(TELEGRAM_URL))
+                startActivity(intent)
+            } catch (e: Exception) {
+                // Handle error silently
+            }
+        }
+    }
+
     private fun setupLicensesSection() {
         binding.licensesCard.setOnClickListener {
             startActivity(Intent(requireContext(), LicensesActivity::class.java))
@@ -251,6 +263,7 @@ class SettingsFragment : Fragment() {
     companion object {
         // TODO: Replace with your actual GitHub repository URL
         private const val SOURCE_CODE_URL = "https://github.com/samyak2403/RepoStore"
+        private const val TELEGRAM_URL = "https://t.me/+q2rca77Sx9phYTE1"
 
         fun newInstance() = SettingsFragment()
     }
