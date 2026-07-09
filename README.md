@@ -1,10 +1,6 @@
 <div align="center">
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" width="200" alt="Project logo"/>
 </div>
-<p align="center">
-  <a href="https://f-droid.org/packages/com.samyak.repostore">
-    <img src="https://github.com/user-attachments/assets/e3fd76c8-9385-4056-a4cd-fb6adb769189" alt="Get it on F-Droid" height="80">
-  </a>
 
 <h1 align="center">RepoStore</h1>
 
