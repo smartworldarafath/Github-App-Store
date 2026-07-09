@@ -31,8 +31,8 @@
 
 ### All screenshots can be found in [screenshots/](screenshots/) folder. 
 <p align="right">
-<a href="https://f-droid.org/packages/com.samyak.repostore">
-    <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">
+<a href="https://t.me/+q2rca77Sx9phYTE1">
+    <img src="https://github.com/user-attachments/assets/e78b0c09-73ab-467b-b77d-30bf2a0bf754" alt="Get it on F-Droid" height="80">
   </a>
 </p>
 
