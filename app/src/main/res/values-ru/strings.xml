@@ -42,7 +42,7 @@
     <string name="recently_updated">Недавно обновлено</string>
     <string name="see_more">Посмотреть больше</string>
     <string name="all_categories">Все категории</string>
-    <string name="more">Более</string>
+    <string name="more">Ещё</string>
 
     <!-- Game Sections -->
     <string name="featured_games">Рекомендуемые игры</string>
@@ -51,9 +51,9 @@
     <string name="no_games_found">Игры не найдены</string>
 
     <!-- App Details -->
-    <string name="app_icon">Значок приложения</string>
+    <string name="app_icon">Иконка приложения</string>
     <string name="banner">Баннер</string>
-    <string name="about">О</string>
+    <string name="about">О нас</string>
     <string name="about_this_app">Об этом приложении</string>
     <string name="screenshots">Скриншоты</string>
     <string name="screenshot">Скриншот</string>
@@ -182,7 +182,7 @@
     <string name="thank_you_message">Спасибо за вашу поддержку! ❤️</string>
     <string name="pay_with_upi_app">Оплатите через приложение UPI</string>
     <string name="no_upi_apps_found">На вашем устройстве не обнаружено платежных приложений UPI.</string>
-    <string name="payment_app_icon">Значок платежного приложения</string>
+    <string name="payment_app_icon">Иконка платежного приложения</string>
     <string name="pay">Платить</string>
     <string name="cannot_open_payment_app">Не могу открыть платежное приложение</string>
     <string name="buy_me_a_coffee">Купи мне кофе</string>
@@ -217,7 +217,7 @@
     <string name="theme_system">Система</string>
     <string name="theme_for_you">Для тебя</string>
     <string name="theme_dark">Темный</string>
-    <string name="theme_light">Свет</string>
+    <string name="theme_light">Светый</string>
     
     <!-- Download Settings -->
     <string name="download_settings">Загрузить настройки</string>
@@ -280,11 +280,11 @@ _ Если это НЕ то же самое приложение, вы все р
     <string name="cat_name_games">Игры</string>
     <string name="cat_name_graphics">Графика</string>
     <string name="cat_name_habit_tracker">Трекер привычек</string>
-    <string name="cat_name_icon_pack">Пакет значков</string>
+    <string name="cat_name_icon_pack">Иконки</string>
     <string name="cat_name_internet">Интернет</string>
     <string name="cat_name_inventory">Инвентарь</string>
     <string name="cat_name_keyboard_ime">Клавиатура и IME</string>
-    <string name="cat_name_launcher">пусковая установка</string>
+    <string name="cat_name_launcher">Лаунчер</string>
     <string name="cat_name_local_media_player">Локальный медиаплеер</string>
     <string name="cat_name_location_tracker">Трекер местоположения и обмен данными</string>
     <string name="cat_name_messaging">Обмен сообщениями</string>
@@ -330,5 +330,5 @@ _ Если это НЕ то же самое приложение, вы все р
     <string name="cat_name_writing">Письмо</string>
     <string name="cat_name_productivity">Производительность</string>
     <string name="cat_name_open_source">Открытый исходный код</string>
-    <string name="cat_name_trending">Тенденции</string>
+    <string name="cat_name_trending">В тренде</string>
 </resources>
