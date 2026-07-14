@@ -5,6 +5,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.samyak.repostore.data.prefs.ThemePreferences
 import com.samyak.repostore.databinding.ActivityMainBinding
 import com.samyak.repostore.ui.fragment.GameFragment
 import com.samyak.repostore.ui.fragment.HomeFragment
@@ -17,6 +18,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Apply Liquid Glass theme before super.onCreate
+        if (ThemePreferences.isLiquidGlass(this)) {
+            setTheme(R.style.Theme_RepoStore_LiquidGlass)
+        }
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 

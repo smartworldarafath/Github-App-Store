@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tienda de repositorios</string>
+    <string name="app_name">Github App Store</string>
 
     <!-- Navigation -->
     <string name="home">Hogar</string>

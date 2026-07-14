@@ -63,7 +63,7 @@
             <ImageView
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:src="@mipmap/ic_launcher"
+                android:src="@drawable/ic_launcher_custom"
                 />
 
             <TextView

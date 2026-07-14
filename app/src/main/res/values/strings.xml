@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Repo Store</string>
+    <string name="app_name">Github App Store</string>
 
     <!-- Navigation -->
     <string name="home">Home</string>
@@ -223,6 +223,7 @@
     <string name="theme_for_you">For You</string>
     <string name="theme_dark">Dark</string>
     <string name="theme_light">Light</string>
+    <string name="theme_liquid_glass">Liquid Glass</string>
     
     <!-- Download Settings -->
     <string name="download_settings">Download Settings</string>

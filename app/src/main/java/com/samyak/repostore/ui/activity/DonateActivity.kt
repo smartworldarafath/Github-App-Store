@@ -20,7 +20,7 @@ import com.samyak.repostore.databinding.ActivityDonateBinding
 import com.samyak.repostore.ui.adapter.PaymentAppAdapter
 import com.samyak.repostore.ui.adapter.PaymentAppInfo
 
-class DonateActivity : AppCompatActivity() {
+class DonateActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityDonateBinding
 

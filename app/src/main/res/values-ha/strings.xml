@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Repo Store</string>
+    <string name="app_name">Github App Store</string>
 
     <!-- Navigation -->
     <string name="home">Gida</string>

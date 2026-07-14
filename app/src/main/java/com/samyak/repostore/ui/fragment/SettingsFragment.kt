@@ -140,11 +140,20 @@ class SettingsFragment : Fragment() {
         binding.themeLightCard.setOnClickListener {
             selectTheme(ThemePreferences.THEME_LIGHT)
         }
+
+        binding.themeLiquidGlassCard.setOnClickListener {
+            selectTheme(ThemePreferences.THEME_LIQUID_GLASS)
+        }
     }
 
     private fun selectTheme(themeMode: Int) {
+        val previousTheme = ThemePreferences.getThemeMode(requireContext())
         ThemePreferences.setThemeMode(requireContext(), themeMode)
         updateThemeSelection()
+        // If switching to/from Liquid Glass, recreate the activity to apply the new theme
+        if (themeMode == ThemePreferences.THEME_LIQUID_GLASS || previousTheme == ThemePreferences.THEME_LIQUID_GLASS) {
+            requireActivity().recreate()
+        }
     }
 
     private fun updateThemeSelection() {
@@ -194,6 +203,7 @@ class SettingsFragment : Fragment() {
         updateCard(binding.themeForYouCard, currentTheme == ThemePreferences.THEME_FOR_YOU)
         updateCard(binding.themeDarkCard, currentTheme == ThemePreferences.THEME_DARK)
         updateCard(binding.themeLightCard, currentTheme == ThemePreferences.THEME_LIGHT)
+        updateCard(binding.themeLiquidGlassCard, currentTheme == ThemePreferences.THEME_LIQUID_GLASS)
     }
 
     private fun setupMyAppsSection() {
@@ -262,7 +272,7 @@ class SettingsFragment : Fragment() {
 
     companion object {
         // TODO: Replace with your actual GitHub repository URL
-        private const val SOURCE_CODE_URL = "https://github.com/samyak2403/RepoStore"
+        private const val SOURCE_CODE_URL = "https://github.com/smartworldarafath/Github-App-Store"
         private const val TELEGRAM_URL = "https://t.me/+q2rca77Sx9phYTE1"
 
         fun newInstance() = SettingsFragment()

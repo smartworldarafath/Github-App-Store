@@ -11,7 +11,7 @@ import com.samyak.repostore.R
 import com.samyak.repostore.databinding.ActivitySettingsBinding
 import com.samyak.repostore.ui.fragment.SettingsFragment
 
-class SettingsActivity : AppCompatActivity() {
+class SettingsActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivitySettingsBinding
 

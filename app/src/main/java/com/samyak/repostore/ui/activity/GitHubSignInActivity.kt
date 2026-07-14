@@ -29,7 +29,7 @@ import kotlinx.coroutines.launch
  * 4. App polls for access token
  * 5. Save token and finish
  */
-class GitHubSignInActivity : AppCompatActivity() {
+class GitHubSignInActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityGithubSignInBinding
     private var pollingJob: Job? = null

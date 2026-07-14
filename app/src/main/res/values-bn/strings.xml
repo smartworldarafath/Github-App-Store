@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="app_name">Repo Store</string>
+    <string name="app_name">Github App Store</string>
 
     <!-- Navigation -->
     <string name="home">বাড়ি</string>

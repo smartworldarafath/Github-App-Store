@@ -30,7 +30,7 @@ import com.google.gson.reflect.TypeToken
 import com.samyak.repostore.R
 import com.samyak.repostore.data.model.FavoriteApp
 
-class FavoriteActivity : AppCompatActivity() {
+class FavoriteActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityFavoriteBinding
     

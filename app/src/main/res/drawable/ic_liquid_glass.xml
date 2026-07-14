@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Water droplet / glass icon -->
+    <path
+        android:fillColor="#FF5B7FFF"
+        android:pathData="M12,2.69l5.66,5.66a8,8 0,1 1,-11.31 0zM12,21a6,6 0,0 0,4.24 -10.24L12,6.52l-4.24,4.24A6,6 0,0 0,12 21z" />
+    <path
+        android:fillColor="#FF7C9CFF"
+        android:fillAlpha="0.5"
+        android:pathData="M12,21a6,6 0,0 0,4.24 -10.24L12,6.52l-4.24,4.24A6,6 0,0 0,12 21z" />
+</vector>

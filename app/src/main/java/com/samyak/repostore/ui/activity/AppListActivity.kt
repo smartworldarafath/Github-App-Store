@@ -26,7 +26,7 @@ import com.samyak.repostore.ui.viewmodel.AppListUiState
 import com.samyak.repostore.util.RateLimitDialog
 import kotlinx.coroutines.launch
 
-class AppListActivity : AppCompatActivity() {
+class AppListActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityAppListBinding
     

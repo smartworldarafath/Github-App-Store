@@ -59,7 +59,7 @@ import java.text.SimpleDateFormat
 import java.util.Locale
 import java.util.TimeZone
 
-class DetailActivity : AppCompatActivity() {
+class DetailActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityDetailBinding
     private lateinit var markwon: Markwon

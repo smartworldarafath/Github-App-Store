@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.samyak.repostore.R
 import com.samyak.repostore.databinding.ActivityAboutBinding
 
-class AboutActivity : AppCompatActivity() {
+class AboutActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityAboutBinding
 

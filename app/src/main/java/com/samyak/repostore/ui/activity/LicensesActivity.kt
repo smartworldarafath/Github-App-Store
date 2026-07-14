@@ -13,7 +13,7 @@ import com.samyak.repostore.databinding.ActivityLicensesBinding
 import com.samyak.repostore.ui.adapter.LicenseAdapter
 import com.samyak.repostore.ui.adapter.LibraryInfo
 
-class LicensesActivity : AppCompatActivity() {
+class LicensesActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityLicensesBinding
 

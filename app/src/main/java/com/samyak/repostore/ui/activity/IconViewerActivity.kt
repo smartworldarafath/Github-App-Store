@@ -12,7 +12,7 @@ import com.samyak.repostore.R
 import com.samyak.repostore.databinding.ActivityIconViewerBinding
 import com.samyak.repostore.util.loadIconWithFallback
 
-class IconViewerActivity : AppCompatActivity() {
+class IconViewerActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityIconViewerBinding
 

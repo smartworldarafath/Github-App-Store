@@ -46,4 +46,17 @@
     <color name="cat_bg_brown">#EFEBE9</color>
     <color name="cat_bg_cyan">#E0F7FA</color>
     <color name="cat_bg_lime">#F9FBE7</color>
+
+    <!-- Liquid Glass Theme Colors (iOS 26 inspired) -->
+    <color name="liquid_glass_surface">#F2F6FC</color>
+    <color name="liquid_glass_surface_variant">#D6E3F8</color>
+    <color name="liquid_glass_primary">#5B7FFF</color>
+    <color name="liquid_glass_primary_container">#D6E3F8</color>
+    <color name="liquid_glass_secondary">#7C9CFF</color>
+    <color name="liquid_glass_secondary_container">#E8EDFF</color>
+    <color name="liquid_glass_on_surface">#1A1C2E</color>
+    <color name="liquid_glass_on_surface_variant">#44475A</color>
+    <color name="liquid_glass_outline">#B0BFD6</color>
+    <color name="liquid_glass_card_bg">#E0EAFF</color>
+    <color name="liquid_glass_navigation_bar">#E8EDFF</color>
 </resources>

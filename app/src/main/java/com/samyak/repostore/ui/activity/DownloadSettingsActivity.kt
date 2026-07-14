@@ -14,7 +14,7 @@ import com.samyak.repostore.R
 import com.samyak.repostore.data.prefs.DownloadPreferences
 import com.samyak.repostore.databinding.ActivityDownloadSettingsBinding
 
-class DownloadSettingsActivity : AppCompatActivity() {
+class DownloadSettingsActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityDownloadSettingsBinding
     

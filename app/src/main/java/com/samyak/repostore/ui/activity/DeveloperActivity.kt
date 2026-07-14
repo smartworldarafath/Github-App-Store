@@ -26,7 +26,7 @@ import com.samyak.repostore.ui.viewmodel.DeveloperViewModelFactory
 import com.samyak.repostore.util.RateLimitDialog
 import kotlinx.coroutines.launch
 
-class DeveloperActivity : AppCompatActivity() {
+class DeveloperActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityDeveloperBinding
 

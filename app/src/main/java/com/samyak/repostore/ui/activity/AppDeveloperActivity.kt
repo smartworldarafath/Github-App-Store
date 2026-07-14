@@ -18,7 +18,7 @@ import com.samyak.repostore.databinding.ActivityAppDeveloperBinding
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
-class AppDeveloperActivity : AppCompatActivity() {
+class AppDeveloperActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityAppDeveloperBinding
     private var githubUser: GitHubUser? = null
@@ -54,7 +54,7 @@ class AppDeveloperActivity : AppCompatActivity() {
                 val userDeferred = async { RetrofitClient.api.getUser(DEVELOPER_USERNAME) }
                 val contributorsDeferred = async { 
                     try {
-                        RetrofitClient.api.getContributors(DEVELOPER_USERNAME, "RepoStore")
+                        RetrofitClient.api.getContributors(DEVELOPER_USERNAME, "Github-App-Store")
                     } catch (e: Exception) {
                         emptyList()
                     }
@@ -171,7 +171,7 @@ class AppDeveloperActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val DEVELOPER_USERNAME = "samyak2403"
+        private const val DEVELOPER_USERNAME = "smartworldarafath"
 
         fun newIntent(context: Context): Intent {
             return Intent(context, AppDeveloperActivity::class.java)

@@ -14,7 +14,7 @@ import com.samyak.repostore.RepoStoreApp
 import com.samyak.repostore.databinding.ActivityGithubTokenBinding
 import androidx.core.net.toUri
 
-class GitHubTokenActivity : AppCompatActivity() {
+class GitHubTokenActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityGithubTokenBinding
 

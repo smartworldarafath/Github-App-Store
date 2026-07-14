@@ -14,7 +14,7 @@ import com.samyak.repostore.R
 import com.samyak.repostore.databinding.ActivityScreenshotViewerBinding
 import com.samyak.repostore.ui.adapter.ScreenshotPagerAdapter
 
-class ScreenshotViewerActivity : AppCompatActivity() {
+class ScreenshotViewerActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityScreenshotViewerBinding
     private var isToolbarVisible = true

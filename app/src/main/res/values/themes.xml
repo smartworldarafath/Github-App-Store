@@ -56,4 +56,33 @@
         <item name="cornerSizeTopRight">24dp</item>
         <item name="cornerSizeBottomRight">24dp</item>
     </style>
+
+    <!-- Liquid Glass Theme - iOS 26 frosted glass aesthetic -->
+    <style name="Theme.RepoStore.LiquidGlass" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/liquid_glass_primary</item>
+        <item name="colorPrimaryVariant">@color/liquid_glass_primary</item>
+        <item name="colorPrimaryContainer">@color/liquid_glass_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/liquid_glass_on_surface</item>
+        <item name="colorSecondary">@color/liquid_glass_secondary</item>
+        <item name="colorSecondaryContainer">@color/liquid_glass_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/liquid_glass_on_surface</item>
+        <item name="colorSurface">@color/liquid_glass_surface</item>
+        <item name="colorSurfaceVariant">@color/liquid_glass_card_bg</item>
+        <item name="colorOnSurface">@color/liquid_glass_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/liquid_glass_on_surface_variant</item>
+        <item name="colorOutline">@color/liquid_glass_outline</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/liquid_glass_navigation_bar</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/liquid_glass_surface</item>
+
+        <!-- Toolbar -->
+        <item name="toolbarStyle">@style/Widget.RepoStore.Toolbar.LiquidGlass</item>
+    </style>
+
+    <style name="Widget.RepoStore.Toolbar.LiquidGlass" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/liquid_glass_on_surface</item>
+        <item name="navigationIconTint">@color/liquid_glass_on_surface</item>
+    </style>
 </resources>

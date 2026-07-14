@@ -13,7 +13,7 @@ import com.samyak.repostore.databinding.ActivityCategoriesBinding
 import com.samyak.repostore.ui.adapter.CategoryGridAdapter
 import com.samyak.repostore.ui.viewmodel.ListType
 
-class CategoriesActivity : AppCompatActivity() {
+class CategoriesActivity : BaseThemedActivity() {
 
     private lateinit var binding: ActivityCategoriesBinding
 

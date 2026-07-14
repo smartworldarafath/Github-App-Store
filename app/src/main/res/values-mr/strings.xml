@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Repo Store</string>
+    <string name="app_name" translatable="false">Github App Store</string>
 
     <!-- Navigation -->
     <string name="home">मुखपृष्ठ</string>
