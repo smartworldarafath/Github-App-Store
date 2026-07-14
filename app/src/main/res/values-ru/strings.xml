@@ -217,7 +217,7 @@
     <string name="theme_system">Система</string>
     <string name="theme_for_you">Для тебя</string>
     <string name="theme_dark">Темный</string>
-    <string name="theme_light">Светый</string>
+    <string name="theme_light">Светлый</string>
     
     <!-- Download Settings -->
     <string name="download_settings">Загрузить настройки</string>
