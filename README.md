@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" width="200" alt="Project logo"/>
+  <img src="app/src/main/res/drawable/ic_launcher_custom.jpg" width="200" alt="Project logo"/>
 </div>
 
-<h1 align="center">RepoStore</h1>
+<h1 align="center">Github App Store</h1>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg"/></a>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  RepoStore is a GitHub-powered Android app store that discovers repositories shipping real installable APKs and lets you install, track, and update them from one place.
+  Github App Store is a GitHub-powered Android app store that discovers repositories shipping real installable APKs and lets you install, track, and update them from one place.
 </p>
 
 > [!CAUTION]
@@ -38,11 +38,11 @@
 
 <img src="screenshots/preview.gif" align="right" width="320"/> 
 
-## ✨ What is RepoStore?       
+## ✨ What is Github App Store?       
 
 
 
-RepoStore is a native Android app that turns GitHub releases into a clean, Play Store style experience:
+Github App Store is a native Android app that turns GitHub releases into a clean, Play Store style experience:
 
 - Only shows repositories that actually provide installable APK assets.
 - Detects installed apps and shows update availability.
@@ -108,9 +108,9 @@ RepoStore is a native Android app that turns GitHub releases into a clean, Play 
 
 ---
 
-## ❓ How does an app appear in RepoStore?
+## ❓ How does an app appear in Github App Store?
 
-RepoStore does not use any private indexing or manual curation. Your project can appear automatically if it follows these conditions:
+Github App Store does not use any private indexing or manual curation. Your project can appear automatically if it follows these conditions:
 
 1. **Public repository on GitHub**
    - Visibility must be `public`.
@@ -128,11 +128,11 @@ RepoStore does not use any private indexing or manual curation. Your project can
    - Topics like `android`, `mobile`, `apk` help ranking.
    - Having stars makes it more likely to appear in sections.
 
-If your repo meets these conditions, RepoStore can find it through search and show it automatically—no manual submission required.
+If your repo meets these conditions, Github App Store can find it through search and show it automatically—no manual submission required.
 
 ---
 
-## 🧭 How RepoStore Works
+## 🧭 How Github App Store Works
 
 1. **Search**
    - Uses GitHub's `/search/repositories` endpoint with Android-focused queries.
@@ -189,13 +189,13 @@ If your repo meets these conditions, RepoStore can find it through search and sh
 
 ---
 
-## ✅ Why Use RepoStore?
+## ✅ Why Use Github App Store?
 
 - **No more hunting through GitHub releases**
   See only repos that actually ship APKs.
 
 - **Knows what you installed**
-  Tracks apps installed via RepoStore and shows when updates are available.
+  Tracks apps installed via Github App Store and shows when updates are available.
 
 - **Always the latest release**
   Installs are guaranteed to come from the latest published release.
@@ -210,7 +210,7 @@ If your repo meets these conditions, RepoStore can find it through search and sh
 
 ## 💖 Support This Project
 
-RepoStore is free and always will be. If it's helped you, consider:
+Github App Store is free and always will be. If it's helped you, consider:
 
 - ⭐ **Star** this repository
 - 🐛 **Report** bugs and issues
@@ -239,7 +239,7 @@ private const val CLIENT_ID = "your_client_id_here"
 
 ## ⚠️ Disclaimer
 
-RepoStore only helps you discover and download release assets that are already published on GitHub by third-party developers.
+Github App Store only helps you discover and download release assets that are already published on GitHub by third-party developers.
 
 The contents, safety, and behavior of those downloads are entirely the responsibility of their respective authors and distributors, not this project.
 
@@ -251,9 +251,9 @@ By using RepoStore, you understand and agree that you install and run any downlo
 
 <div align="center">
 
-**Samyak Kamble**
+**Arafath Rahman**
 
-[![GitHub](https://img.shields.io/badge/GitHub-samyak2403-181717?style=for-the-badge&logo=github)](https://github.com/samyak2403)
+[![GitHub](https://img.shields.io/badge/GitHub-smartworldarafath-181717?style=for-the-badge&logo=github)](https://github.com/smartworldarafath)
 
 </div>
 
@@ -266,7 +266,7 @@ RepoStore is released under the **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2026 Samyak Kamble
+Copyright (c) 2026 Arafath Rahman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -291,8 +291,8 @@ SOFTWARE.
 
 <div align="center">
 
-**Made with ❤️ in India**
+**Made with ❤️ in Bangladesh**
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=samyak2403.RepoStore)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=smartworldarafath.Github-App-Store)
 
 </div>
